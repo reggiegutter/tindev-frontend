@@ -1,13 +1,10 @@
 import React from 'react';
+import Routes from './routes';
+
 import './App.css';
-import logo from './assets/logo.svg';
 
 function App() {
-  return (
-    <div>
-      <img src={logo} alt="Tindev - Reggie" />
-    </div>
-  );
+  return <Routes />;
 }
 
 export default App;
